@@ -1,0 +1,11 @@
+<?php
+$servername="localhost";
+$user="root";
+$pass="";
+$dbname="taskSystem";
+$conn=mysqli_connect($servername,$user,$pass,$dbname);
+define("SERVERNAME","localhost");
+define("USER","root");
+define("PASS","");
+define("DBNAME","tasksystem");
+?>
